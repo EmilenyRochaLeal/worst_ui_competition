@@ -12,6 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'olympic-gradient': 'linear-gradient(to right, #0085CA, #F7E300, #000000, #009B77, #E03C31)', // Cores dos anéis olímpicos
+
       },
     },
   },
