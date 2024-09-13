@@ -1,5 +1,4 @@
 
-```markdown
 # Worst UI Competition
 
 This project was created for the worst UI competition hosted by PeteTech, with the goal of developing the worst interactive web application with the theme of Olympic Games judges' scoring system.
