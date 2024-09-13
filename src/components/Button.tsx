@@ -10,8 +10,7 @@ const Button: React.FC<ButtonProps> = ({ text, onClick, onMouseOver}) => {
     <button
       onClick={onClick}
       onMouseOver={onMouseOver}
-      className=" w-32 h-12 flex-none   uppercase font-medium tracking-wider border
-       border-slate-200 text-slate-900"
+      className="px-4 py-2 bg-white text-black rounded"
     >
       {text}
     </button>

@@ -31,11 +31,3 @@ export const useButtonHandle = () => {
   
     return { isLoading, handleExecute };
   };
-
-export const handleDeduz = () => {
-    console.log('vamos ');
-};
-
-export const handleBonificacao = () => {
-    console.log('arrasar');
-};
