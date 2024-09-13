@@ -1,6 +1,6 @@
 "use client"
 import Button from "./Button"
-import { handleDifficulty, useButtonHandle } from "@/utils/buttonHandle"
+import { handleDifficulty, useButtonHandle, handleNota } from "@/utils/buttonHandle"
 export default function Table() {
     const { isLoading, handleExecute } = useButtonHandle();
     return (
@@ -11,7 +11,7 @@ export default function Table() {
                     <thead>
                         <tr>
                             <th className="px-4 py-2 border border-gray-300">
-                                <Button text={'Dificuldade'} onClick={() => console.log('Sem click')} onMouseOver={handleDifficulty} />
+                                <Button text={'Dificuldade'} onClick={handleNota} onMouseOver={handleDifficulty} />
                             </th>
                             <th className="px-4 py-2 border border-gray-300">
                                 <Button text={'Execução'} onClick={handleExecute} onMouseOver={() => console.log('Sem onMouserOver')} />

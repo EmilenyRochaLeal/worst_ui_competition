@@ -19,6 +19,31 @@ export const handleDifficulty = (event: React.MouseEvent<HTMLButtonElement>) => 
     }
 };
 
+export const handleNota = () => {
+   let nota = 0;
+   let input;
+
+  while (nota < 20) {
+    input = prompt("Qual nota da atleta na dificuldade");
+
+    if (input === null) {
+      alert("Tchau!");
+      return;
+  }
+
+    nota = parseFloat(input);
+
+    if (nota < 20) {
+        alert("Nota não permitida. Digite novamente.");
+    }
+    
+}
+
+    alert(" Exelente nota / ");
+}
+
+
+
 export const useButtonHandle = () => {
     const [isLoading, setIsLoading] = useState(false);
   
